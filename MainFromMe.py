@@ -8,7 +8,7 @@ from controllers.motors import move_motor_degrees
 
 
 move_motor_degrees(MotorTURNTABLE, 30)
-
+#Motor("turntable")
 
 picam2 = Picamera2()
 picam2.start(show_preview=True)
